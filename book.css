@@ -1,0 +1,151 @@
+/* body */
+body {
+    background-image: url(img-ngobar-8/suns.jpg);
+}
+
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+.navbar-brand {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 32px;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url(img-ngobar-8/suns.jpg);
+    background-size: cover;
+    height: 800 px;
+    text-align: center;
+    position: relative;
+    font-family: 'Caveat', cursive;
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron::after {
+    content:'';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)); 
+    position:absolute;
+    bottom: 0;
+
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    font-size: 42px;
+}
+
+.jumbotron .display-4 span{
+    font-weight: 800;
+}
+
+/* BUY BOOK */
+.buybook {
+    margin-top: 80px;
+
+}
+.buybook h3{
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.buybook h6{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.buybook p{
+    font-size: 15px;
+    color: rgb(41, 40, 40);
+    font-weight: 400;
+    margin: 25px 0;
+    margin-top: -2px;
+    margin-bottom: 10px;
+}
+
+.buybook img{
+    height: 300px;
+    width: 250px;
+}
+
+
+/* Footer */
+.footer{
+    margin-top: 140px;
+}
+
+.footer p{
+    color:rgb(58, 58, 58);
+    font-size: 12px;
+}
+
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    font-family: 'Lexend Deca', sans-serif !important;
+}
+
+.tombol2 {
+    margin-top: -10px;
+    font-family: 'Lexend Deca', sans-serif !important;
+}
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+
+    .navbar-brand, .nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8)
+    }
+
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid blue;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }   
+
+    .buybook {
+        text-align: left;
+    }
+
+    .jumbotron{
+        margin-top: -75px;
+        height: 400px;
+    }
+    
+    .jumbotron .display-4{
+        font-size: 62px;
+    }
+
+    .buybook img{
+        height: 600px;
+        width: 500px;
+    }
+}
