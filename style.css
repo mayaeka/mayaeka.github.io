@@ -1,6 +1,6 @@
 /* body */
 body {
-    background-image: url(img-ngobar-8/suns.jpg);
+    background-image: url(image/suns.jpg);
 }
 
 
@@ -16,7 +16,7 @@ body {
 
 /* Jumbotron */
 .jumbotron{
-    background-image: url(img-ngobar-8/suns.jpg);
+    background-image: url(image/suns.jpg);
     background-size: cover;
     height: 800 px;
     text-align: center;
