@@ -85,7 +85,6 @@ body {
 /* BUY BOOKS */
 .buybook {
     margin-top: 120px;
-
 }
 
 .buybook h3{
@@ -93,6 +92,8 @@ body {
     font-weight: 200;
     text-transform: uppercase;
     margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 15px;
 }
 
 .buybook h3 span{
@@ -100,15 +101,24 @@ body {
 }
 
 .buybook p{
-    font-size: 15px;
-    color: rgb(48, 48, 48);
-    font-weight: 200;
+    font-size: 16px;
+    color: rgb(31, 30, 30);
+    font-weight: 250;
     margin: 25px 0;
+    margin-right: 20px;
+    margin-left: 15px;
 }
 
 .buybook img{
-    height: 600px;
-    width: 500px;
+    height: 400px;
+    width: 300px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.tombolbuybook{
+    margin-right: 20px;
+    margin-left: 15px;
 }
 
 /* Testimoni */
@@ -218,6 +228,10 @@ body {
         text-align: left;
     }
 
+    .buybook img{
+        height: 600px;
+        width: 500px;
+    }
     .testimoni h5{
         font-size: 28px;
     }
