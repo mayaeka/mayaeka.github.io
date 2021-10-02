@@ -1,6 +1,7 @@
 /* body */
 body {
     background-image: url(image/suns.jpg);
+    overflow-x:hidden;
 }
 
 
@@ -18,7 +19,6 @@ body {
 .jumbotron{
     background-image: url(image/suns.jpg);
     background-size: cover;
-    height: 800 px;
     text-align: center;
     position: relative;
     font-family: 'Caveat', cursive;
@@ -138,8 +138,8 @@ body {
 .figure img{
     width: 70px;
     height: 70px;
-    margin: 40px 20px 20px;
-    opacity:0.5;
+    margin: 40px 20px 0px;
+    opacity:0.6;
     filter:alpha(opacity=40); /* For IE8 and earlier */
 }
 
@@ -151,27 +151,32 @@ body {
     filter: alpha(opacity=0);
 }
 
-.figure h5{
-    font-size: 16px;
+.caption h5{
+    font-size: 18px;
     font-weight: bold;
     font-style: normal;
     color: rgb(12, 12, 51);
     margin-bottom: 10px;
+    margin-top: 20px;
+
 }
 
-.figure p{
+.caption p{
     font-size: 12px;
     color: rgb(53, 53, 53);
     margin-top: -5px !important;
 }
 
-.figure h6{
+.caption h6{
     text-align:center;
     color:rgb(31, 30, 30);
+    font-size: 14px;
 }
 
-.figure-caption {
+.caption {
     text-align: center;
+    display: block;
+    margin-top: -20px;
 }
 
 .figure{
