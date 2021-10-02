@@ -134,12 +134,6 @@ body {
     margin-bottom: 40px;
 }
 
-.testimoni h6{
-    text-align : center;
-    font-weight: 500;
-    margin-top: -35px;
-    margin-bottom: 30px;
-}
 
 .figure img{
     width: 70px;
@@ -169,6 +163,11 @@ body {
     font-size: 12px;
     color: rgb(53, 53, 53);
     margin-top: -5px !important;
+}
+
+.figure h6{
+    text-align:center;
+    color:rgb(31, 30, 30);
 }
 
 .figure-caption {
