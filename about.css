@@ -1,6 +1,8 @@
 /* body */
 body {
     background-image: url(image/suns.jpg);
+    overflow-x:hidden;
+
 }
 
 
@@ -59,6 +61,22 @@ body {
     text-align: justify;
 }
 
+/* card */
+.luyd {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.luyd h1{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
 /* Footer */
 .footer{
     margin-top: 140px;
@@ -68,6 +86,7 @@ body {
     color:rgb(58, 58, 58);
     font-size: 12px;
 }
+
 
 /* Utility */
 .tombol {
@@ -79,6 +98,7 @@ body {
 .tombol2 {
     margin-bottom: 80px;
 }
+
 
 /* DESKTOP VERSION */
 @media (min-width: 992px) {

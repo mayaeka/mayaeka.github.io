@@ -1,6 +1,8 @@
 /* body */
 body {
     background-image: url(image/suns.jpg);
+    overflow-x:hidden;
+
 }
 
 /* Navbar */
@@ -106,6 +108,10 @@ body {
     margin-top: -10px;
     font-family: 'Lexend Deca', sans-serif !important;
 }
+.tombol3 {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
 
 
 /* DESKTOP VERSION */
@@ -137,7 +143,7 @@ body {
 
     .jumbotron{
         margin-top: -75px;
-        height: 400px;
+        height: 500px;
     }
     
     .jumbotron .display-4{
@@ -147,5 +153,14 @@ body {
     .buybook img{
         height: 720px;
         width: 500px;
+    }
+
+    .buybook {
+        margin-top: 50px;
+    }
+
+    .tombol3 {
+        margin-bottom: 70px;
+        margin-top: 20px;
     }
 }

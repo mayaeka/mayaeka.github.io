@@ -1,0 +1,73 @@
+/* body */
+body {
+    background-image: url(image/suns.jpg);
+    overflow-x:hidden;
+
+}
+
+
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+.navbar-brand {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 32px;
+}
+
+/* soource */
+.source {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top : 50px;
+    margin-bottom: 50px;
+}
+
+/* Footer */
+.footer{
+    margin-top: 370px;
+}
+
+.footer p{
+    color:rgb(58, 58, 58);
+    font-size: 12px;
+}
+
+
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    font-family: 'Lexend Deca', sans-serif !important;
+}
+
+.tombol2 {
+    margin-bottom: 80px;
+}
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8)
+    }
+
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid blue;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+
+}

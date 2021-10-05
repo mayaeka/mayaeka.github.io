@@ -1,6 +1,8 @@
 /* body */
 body {
     background-image: url(image/suns.jpg);
+    overflow-x:hidden;
+
 }
 
 /* Navbar */
@@ -55,7 +57,7 @@ body {
 /* BUY BOOK */
 .buybook {
     margin-top: 80px;
-
+    text-align: left;
 }
 .buybook h3{
     font-size: 42px;
@@ -82,6 +84,8 @@ body {
 .buybook img{
     height: 300px;
     width: 250px;
+    margin-top: -50px;
+    margin-bottom: -30px;
 }
 
 
@@ -92,7 +96,7 @@ body {
 
 .footer p{
     color:rgb(58, 58, 58);
-    font-size: 12px;
+    font-size: 10px;
 }
 
 /* Utility */
@@ -105,6 +109,10 @@ body {
 .tombol2 {
     margin-top: -10px;
     font-family: 'Lexend Deca', sans-serif !important;
+}
+.tombol3 {
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 
@@ -137,7 +145,7 @@ body {
 
     .jumbotron{
         margin-top: -75px;
-        height: 400px;
+        height: 500px;
     }
     
     .jumbotron .display-4{
@@ -147,5 +155,14 @@ body {
     .buybook img{
         height: 600px;
         width: 500px;
+    }
+
+    .buybook {
+        margin-top: 50px;
+    }
+
+    .tombol3 {
+        margin-bottom: 70px;
+        margin-top: 20px;
     }
 }
